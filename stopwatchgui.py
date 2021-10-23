@@ -28,7 +28,7 @@ def reset():
     global start_time
     start_time = datetime.now()
 
-    if not running():
+    if not running:
         txt_var.set('0.00')
 
 running = False
