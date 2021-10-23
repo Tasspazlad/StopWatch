@@ -14,4 +14,10 @@ try:
             for seconds in range(0,60):
                 time.sleep(1)
                 print(hours,":",minutes,":",seconds+1)
-                
+except KeyboardInterrupt:
+    end_time = time.time()
+    time_lapsed = end_time - start_time
+    time_convert(time_lapsed)
+
+
+
