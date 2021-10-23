@@ -47,5 +47,6 @@ tk.Label(root,textvariable=txt_var,font = fontStyle).pack()
 tk.Button(root,text="Start",command = start).pack(fill = 'x')
 tk.Button(root,text="Stop",command = stop).pack(fill = 'x')
 tk.Button(root,text="Reset",command = reset).pack(fill = 'x')
+tk.Button(root,text = "Time Lapse",command = run).pack(fill = 'x')
 
 root.mainloop()
